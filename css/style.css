@@ -3,14 +3,19 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 66em;
-	text-align: center;
+	text-indent: 26em;
 }
 
 ul {
 	font-family: Covered By Your Grace;
 	font-size: 2em;
 	list-style-type: none;
+	text-indent: 16em;
 }
 h1 {
 	margin-top: 5em;
+}
+
+.item-bar {
+	text-indent: 30em;
 }
