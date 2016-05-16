@@ -3,7 +3,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 66em;
-	text-indent: 26em;
+	text-indent: 30em;
+	font-family: Covered By Your Grace;
 }
 
 ul {
@@ -11,11 +12,18 @@ ul {
 	font-size: 2em;
 	list-style-type: none;
 	text-indent: 16em;
+	color: brown;
 }
 h1 {
 	margin-top: 5em;
+    text-indent: 6.3em;
+    font-size: 3.5em;
+    color: brown;
+}
+li.linethrough {
+	text-decoration: line-through;
+}
+.purchased {
+	vertical-align: middle;
 }
 
-.item-bar {
-	text-indent: 30em;
-}
