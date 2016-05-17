@@ -11,14 +11,16 @@ ul {
 	font-family: Covered By Your Grace;
 	font-size: 2em;
 	list-style-type: none;
-	text-indent: 16em;
+	text-indent: -4em;
 	color: brown;
+	text-align: center;
 }
 h1 {
 	margin-top: 5em;
-    text-indent: 6.3em;
+    text-indent: -1.4em;
     font-size: 3.5em;
     color: brown;
+    text-align: center;
 }
 li.linethrough {
 	text-decoration: line-through;
@@ -26,4 +28,5 @@ li.linethrough {
 .purchased {
 	vertical-align: middle;
 }
+
 
