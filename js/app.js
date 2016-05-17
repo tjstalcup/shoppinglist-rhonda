@@ -8,10 +8,24 @@ $(document).ready(function() {
 		}
 		//otherwise, text is appended as a li to the shopping list:
 		else {
-			$('.shopping-list-items').append("<li class='current-item'><img class='purchased' src=''/>" + "" + something + "<img src='' class='remove'></li>");
+			var "" = $('inputBox').val();
+			$('.shopping-list-items ul').append("<li class='current-item'><img class='btn-purchased' src=''/>" + "" + eggs + "<img src='' class='remove'/></li>");
 		     }
 		     //resets the textbox after item is entered:
 		     $('#user-input')[0].reset();
 		
 	});
 });
+
+//functions to delete and strikethrough code when purchased and remove buttons are clicked 
+assignlisteners();
+function assignlisteners() {
+	$('ul').on('click','.btn-remove',function(event) {
+		console.log('.btn-remove clicked');
+		$(this).closest('li').remove();
+	})
+}
+    $('ul').on('click','.btn-purchased',function(event) {
+    	$(this).closest('li').toggleClass('linethrough');
+    	console.log('btn-purchased clicked');
+    })
