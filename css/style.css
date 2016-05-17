@@ -1,7 +1,4 @@
 body {
-	background-image: url('http://i.imgur.com/J1lClUW.png');
-	background-repeat: no-repeat;
-	background-position: center;
 	background-size: 66em;
 	text-indent: 30em;
 	font-family: Covered By Your Grace;
@@ -22,10 +19,8 @@ h1 {
     color: brown;
     text-align: center;
 }
-li.linethrough {
-	text-decoration: line-through;
-}
-.btn-purchased {
+
+.purchased {
   background: #358031;
   background-image: -webkit-linear-gradient(top, #358031, #ffffff);
   background-image: -moz-linear-gradient(top, #358031, #ffffff);
@@ -43,7 +38,7 @@ li.linethrough {
   text-decoration: none;
 }
 
-.btn-purchased:hover {
+.purchased:hover {
   background: #ffffff;
   background-image: -webkit-linear-gradient(top, #ffffff, #199e2d);
   background-image: -moz-linear-gradient(top, #ffffff, #199e2d);
@@ -52,5 +47,8 @@ li.linethrough {
   background-image: linear-gradient(to bottom, #ffffff, #199e2d);
   text-decoration: none;
 }
-
+.bag {
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
