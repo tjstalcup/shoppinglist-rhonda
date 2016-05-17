@@ -1,30 +1,17 @@
-	$(document).ready(function() {
+$(document).ready(function() {
 	$('#user-input').submit(function(event) {
 		event.preventDefault();
-		var something = $('#inputBox').val();
-		// if user inputs nothing and hits enter, alert will pop up and nothing is appended
-		if (something === "") {
-			alert('Please enter an item!')
+		var something = $('inputBox').val();
+		//if user inputs no text and hits 'enter', alert will pop up and nothing is appended:
+		if(something === "") {
+              alert('Please enter an item!')
 		}
-		//otherwise, text is appended as a li to the shopping list
+		//otherwise, text is appended as a li to the shopping list:
 		else {
-			$('.allItems ul').append("<li class='currentItem'> <img class='checked' src='assets/check.png'/>" + " " + something + " " + "<img src='assets/delete.png'/ class='trash'></li>");	
-		}
-		// resets the textbox after item is entered
-		$('#userInput')[0].reset();
+			$('.shopping-list-items').append("<li class='current-item'><img class='purchased' src=''/>" + "" + something + "<img src='' class='remove'></li>");
+		     }
+		     //resets the textbox after item is entered:
+		     $('#user-input')[0].reset();
+		
 	});
-
 });
-
-//functions to delete and strikethrough code when checkbox and trashcan are clicked
-assignlisteners();
-function assignlisteners() {
-	$('ul').on('click', '.remove', function(event){
-		console.log('trash clicked');
-		$(this).closest('li').remove();
-	});	
-	$('ul').on('click', '.checked', function(event) {
-		$(this).closest('li').toggleClass('linethrough');
-		console.log('check clicked');
-	});
-}
