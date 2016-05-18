@@ -6,23 +6,30 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel='stylesheet' href='css/style.css'>
   <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script src="js/app.js"></script>
 </head>
 <body>
     <div class="container">
-    <div class="input">
-        <h1>Lovelorn's Shopping List</h1>
-        <input id="item"></input>
-        <button type="submit" id="add">Add</button></br>
-        <h2><button type="submit" id="remove-all">Click here to remove all items from list</button></h2>
-        <ul id="list">
-            <li class="items"><button type="submit" id="purchased">Purchased</button></div><span>Bread</span><button type="submit" id="remove">Remove</button></div></li>
-            <li class="items"><button type="submit" id="purchased">Purchased</button></div><span>Eggs</span><button type="submit" id="remove">Remove</button></div></li>
-            <li class="items"><button type="submit" id="purchased">Purchased</button></div><span>Milk</span><button type="submit" id="remove">Remove</button></div></li>
-        </ul>    
+      <div class="input">
+          <h1>Lovelorn's Shopping List</h1>
+          <input id="item"></input>
+          <button type="submit" id="add">Add</button><br>
+          <h2><button type="submit" id="remove-all">Click here to remove all items from list</button></h2>
+          <div class="list">
+          <ul id="list">
+              <li class="items">
+                <button type="submit" id="purchased">Purchased</button><span>Bread</span><button type="submit" id="remove">Remove</button>
+              </li>
+              <li class="items">
+                <button type="submit" id="purchased">Purchased</button><span>Eggs</span><button type="submit" id="remove">Remove</button>
+              </li>
+              <li class="items">
+                <button type="submit" id="purchased">Purchased</button><span>Milk</span><button type="submit" id="remove">Remove</button>
+              </li>
+          </ul> 
+        </div>   
     </div>  
-    </div>   
-  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-  <script src="js/app.js"></script>
 </body>
 </html>
 
