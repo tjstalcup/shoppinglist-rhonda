@@ -8,18 +8,20 @@
   <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 </head>
 <body>
+    <div class="container">
     <div class="input">
         <img id="bag" src="http://i.imgur.com/J1lClUW.png"/>
         <h1>Lovelorn's Shopping List</h1>
         <input id="item"></input>
         <button type="submit" id="add">Add</button></br>
-        <h2>Click here to remove all items from list</h2>
+        <h2><button type="submit" id="remove-all">Click here to remove all items from list</button></h2>
         <ul id="list">
-            <li class="items"><div class="purchased"></div><span>Bread</span><div class="remove"></div></li>
-            <li class="items"><div class="purchased"></div><span>Eggs</span><div class="remove"></div></li>
-            <li class="items"><div class="purchased"></div><span>Milk</span><div class="remove"></div></li>
+            <li class="items"><button type="submit" id="purchased">Purchased</button></div><span>Bread</span><button type="submit" id="remove">Remove</button></div></li>
+            <li class="items"><button type="submit" id="purchased">Purchased</button></div><span>Eggs</span><button type="submit" id="remove">Remove</button></div></li>
+            <li class="items"><button type="submit" id="purchased">Purchased</button></div><span>Milk</span><button type="submit" id="remove">Remove</button></div></li>
         </ul>    
-    </div>     
+    </div>  
+    </div>   
   <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
   <script src="js/app.js"></script>
 </body>
