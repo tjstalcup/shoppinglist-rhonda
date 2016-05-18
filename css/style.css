@@ -1,10 +1,24 @@
-.container {
+body {
+	background-image: url('http://i.imgur.com/J1lClUW.png'); 
 	background-repeat: no-repeat;
     background-position: center;
 	background-size: 66em;
 	text-indent: 30em;
 	font-family: Covered By Your Grace;
 }
+
+.container {
+	width: 650px;
+	margin: 0 auto;
+}
+
+input {
+	width: 500px;
+	margin: 0 auto;
+	border-radius: 2px;
+	text-align: center;
+}
+
 
 span {
 	font-family: Covered By Your Grace;
@@ -24,14 +38,11 @@ h1 {
 
 #purchased {
     background-color: green;
+    display: inline-block;
 }
 
 #remove {
 	background-color: red;
+	display: inline-block;
 }
 
-
-
-ul {
-	list-style-type: none;
-}
