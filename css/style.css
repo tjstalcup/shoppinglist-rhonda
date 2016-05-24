@@ -1,51 +1,6 @@
-body {
-	background-image: url('http://i.imgur.com/J1lClUW.png'); 
-	background-repeat: no-repeat;
-    background-position: center;
-	background-size: 66em;
-	text-indent: 30em;
-	font-family: Covered By Your Grace;
+ul {
+  list-style-type: none;
 }
-
-.container {
-	width: 650px;
-	margin: 0 auto;
-}
-
-input {
-	width: 500px;
-	margin: 0 auto;
-	border-radius: 2px;
-	text-align: center;
-}
-
-
-span {
-	font-family: Covered By Your Grace;
-	font-size: 2em;
-    list-style: none;
-    text-indent: -4em;
-	color: brown;
-	text-align: center;
-}
-h1 {
-	margin-top: 5em;
-    text-indent: -1.4em;
-    font-size: 3.5em;
-    color: brown;
-    text-align: center;
-}
-
-#purchased {
-    background-color: green;
-    display: inline-block;
-}
-
-#remove {
-	background-color: red;
-	display: inline-block;
-}
-
-#list {
-	list-style-type: none;
+.purchased {
+  text-decoration: line-through;
 }

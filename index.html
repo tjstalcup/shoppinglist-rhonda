@@ -10,26 +10,25 @@
   <script src="js/app.js"></script>
 </head>
 <body>
-    <div class="container">
-      <div class="input">
-          <h1>Lovelorn's Shopping List</h1>
-          <input id="item"></input>
-          <button type="submit" id="add">Add</button><br>
-          <h2><button type="submit" id="remove-all">Click here to remove all items from list</button></h2>
-          <div id="item-list">
-          <ul id="list">
-              <li class="items">
-                <button type="submit" id="purchased">Purchased</button><span>Bread</span><button type="submit" id="remove">Remove</button>
-              </li>
-              <li class="items">
-                <button type="submit" id="purchased">Purchased</button><span>Eggs</span><button type="submit" id="remove">Remove</button>
-              </li>
-              <li class="items">
-                <button type="submit" id="purchased">Purchased</button><span>Milk</span><button type="submit" id="remove">Remove</button>
-              </li>
-          </ul> 
-        </div>   
-    </div>  
+    <header><h1>Lovelorn's Shopping List</h1></header>
+<div class="container">
+<form id="groceryItem">
+  <input type="text" id="inputText" placeholder="Enter item here"/>
+  <input type="submit" id="add" value="Add"/>
+  <input type="button" id="removeAll" value="Remove Purchased Items"/>
+</form><br>
+  
+  <div class="instructions">Click  purchased items to cross them off</div><br>
+  
+  <ul>
+    <li><input type="checkbox">Eggs</li>
+    <li><input type="checkbox">Veggies</li>
+    <li><input type="checkbox">Pizza Rolls</li>
+    <li><input type="checkbox">Cherry Coke</li>
+  </ul> 
+  
+
+</div>  
 </body>
 </html>
 

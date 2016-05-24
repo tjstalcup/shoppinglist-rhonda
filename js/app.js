@@ -1,30 +1,45 @@
 $(document).ready(function() {
-	$("item").submit(function(event) {
-		event.preventDefault();
-		var something = $("input").val();
-		//if user inputs no text and hits 'enter', alert will pop up and nothing is appended:
-		if(something === "") {
-              alert('Please enter an item!')
-		}
-		//otherwise, text is appended as a li to the shopping list:
-		else {
-			var "" = $("input").val();
-			$('.list ul').append("<li class="items"><div class="purchased" src=''/>" + "" + something + "<div class="remove"></li>");
-		     }
-		     //resets the textbox after item is entered:
-		     $('#item')[0].reset();
-		
-	});
+  $('#groceryItem').on('submit', function(event) {
+    event.preventDefault();  
+   
+   var newItem = $('#inputText').val();  
+     if (newItem === "") {
+       alert("Please enter an item first!")
+     }
+    else {
+       $('ul').append('<li>' + '<input type="checkbox">' + newItem + '</li>');   
+     $('#inputText').val('');
+    }
+    }); 
+  //will not add a blank item when alert is shown and will only add <li>s upon entering text
+
+  $(document).on('click', 'li input:checkbox', function() {
+     console.log(this);
+    var $this = $(this);
+    if (this.checked) {
+      $this.parent().addClass('purchased');
+      } else {
+        $this.parent().removeClass('purchased')
+};
+    
+    var purchasedItem = "$this.parent().addClass('purchased');";
+ $('document').on('click','input:button',function() {
+   $('input:button').remove(purchasedItem);
+ });   
+
+
+  
+ 
+    
 });
 
-//functions to delete and strikethrough code when purchased and remove buttons are clicked 
-assignlisteners();
-function assignlisteners() {
-	$('ul').on('click','.remove',function(event) {
-		console.log('.remove clicked');
-		$(this).closest('li').remove();
-	})
-}
-    $('ul').on('click','.purchased',function(event) {
-    	$(this).closest('li').toggleClass('linethrough');
-    })
+ 
+
+  
+  });
+  
+//add remove all checked/crossed out items button
+//sort items if needed
+    
+
+    
