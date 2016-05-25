@@ -1,6 +1,48 @@
-ul {
-  list-style-type: none;
-}
+
 .purchased {
   text-decoration: line-through;
+}
+header {
+	font-family: Covered By Your Grace;
+	color: #672222;
+	text-indent: 16em;
+    padding-top: 7em;
+    font-size: x-large;
+}
+
+body {
+	background-image: url('../images/Grocery Bag.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -19em;
+}
+
+.container {
+    text-indent: 21em;
+}
+
+.instructions {
+	text-indent: 27em;
+}	
+
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  font-family: Covered By Your Grace;
+  color: #672222;
+}
+
+#inputText {
+	background-color: #FDDB33;
+    width: 15em;
+}
+
+#removeAll {
+	background-color: #FF6B6B
+;
+}
+
+#add {
+	background-color: #55e58a;
 }
