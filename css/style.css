@@ -22,15 +22,20 @@ body {
 }
 
 .instructions {
-	text-indent: 27em;
+	text-indent: 24em;
 }	
 
 
 ul {
   list-style-type: none;
-  display: inline-block;
-  font-family: Covered By Your Grace;
+  display: initial;
+  font-family: Shadows Into Light Two;
   color: #672222;
+  font-size: x-large;
+  text-indent: 19em;
+  font-weight: bolder;
+  width: 30em;
+  word-break: keep-all;
 }
 
 #inputText {
@@ -46,3 +51,4 @@ ul {
 #add {
 	background-color: #55e58a;
 }
+
