@@ -13,9 +13,12 @@ header {
 body {
 	background-image: url('../images/Grocery Bag.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% auto;
 	background-position-y: -19em;
 	background-position: 0em;
+	z-index: 10;
+    background-attachment: fixed;
+
 }
 
 .container {
@@ -26,6 +29,9 @@ body {
 	text-indent: 24em;
 }	
 
+header, form, .instructions {
+	position: relative;
+}
 
 ul {
   list-style-type: none;
