@@ -12,11 +12,10 @@ header {
 
 body {
 	background-image: url('../images/Grocery Bag.jpg');
-	background-repeat: no-repeat;
+	
 	background-size: 100% auto;
-	background-position-y: -19em;
+	
 	background-position: 0em;
-	z-index: 10;
     background-attachment: fixed;
 
 }
@@ -41,8 +40,11 @@ ul {
   font-size: x-large;
   text-indent: 19em;
   font-weight: bolder;
-  width: 30em;
   word-break: keep-all;
+  position: fixed;
+  height: 500px;
+  width: 600px;
+  overflow: scroll;
 }
 
 #inputText {

@@ -27,7 +27,6 @@ $(document).on('click', 'li input:checkbox', function() {
    $('.purchased').remove();
  }); 
 
-$('#sortable').on('mouseenter').sortable({ axis: "y" });
   
   
 
