@@ -25,9 +25,7 @@ $(document).on('click', 'li input:checkbox', function() {
  $('#removeAll').on('click',function() {
    console.log('remove all clicked');
    $('.purchased').remove();
- }); 
-
-  
+ });   
   
 
 
