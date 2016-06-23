@@ -1,10 +1,11 @@
+@media 
 .purchased {
   text-decoration: line-through;
 }
 header {
   position: absolute;
   margin-top: 20%;
-  margin-left: 25%;
+  margin-left: 24%;
 	font-family: Covered By Your Grace;
 	color: #672222;
     font-size: 1.5em;
@@ -19,7 +20,7 @@ body {
 
 #groceryItem {
 	position: absolute;
-  margin-left: 20%;
+  margin-left: 18%;
   margin-top: 31%;
 }
 
