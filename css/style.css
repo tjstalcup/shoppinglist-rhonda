@@ -41,11 +41,10 @@ ul {
   font-family: Shadows Into Light Two;
   color: #672222;
   font-size: x-large;
-  font-weight: bolder;
+  font-weight: 800;
   height: 9em;
   width: 17em;
-  overflow: scroll;
-
+  overflow-y: scroll;
   padding: 0;
 }
 
@@ -65,6 +64,32 @@ ul {
 
 #add {
 	background-color: #55e58a;
+}
+
+@media only screen and (min-width: 730px) {
+    header {
+    margin-top: 22%;
+    margin-left: 25%;
+    font-size: 4vh;
+  }
+  #groceryItem {
+    margin-left: 21%;
+    margin-top: 33%;
+    font-size: 2.5vh;
+  }
+  #removeAll {
+    width: 33vh;
+  }
+  .instructions {
+    margin-left: 29%;
+    margin-top: 35%;
+    font-size: 2vh;
+  }
+  ul {
+    margin-left: 37%;
+    margin-top: 35%;
+    font-size: 4vh;
+  }
 }
 
 @media only screen and (min-width: 999px) {
@@ -88,3 +113,5 @@ ul {
     margin-top: 35%;
   }
 }
+
+
