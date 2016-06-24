@@ -4,11 +4,11 @@
 
 header {
    position: absolute;
-    margin-top: 20%;
+    margin-top: 21%;
     margin-left: 23%;
 	 font-family: Covered By Your Grace;
 	 color: #672222;
-     font-size: 1.5em;
+     font-size: 1.5vh;
 }
 
 
@@ -22,25 +22,27 @@ body {
 
 #groceryItem {
 	position: absolute;
-  margin-left: 18%;
-  margin-top: 31%;
+  margin-left: 25%;
+  margin-top: 32%;
+  font-size: .75vh;
 }
 
 
 .instructions {
 	position: absolute;
-  margin-left: 24%;
-  margin-top: 35%;
+  margin-left: 29%;
+  margin-top: 33.5%;
+  font-size: .75vh;
 }	
 
 ul {
   position: absolute;
-  margin-left: 30%;
-  margin-top: 38%;
+  margin-left: 34%;
+  margin-top: 35%;
   list-style-type: none;
   font-family: Shadows Into Light Two;
   color: #672222;
-  font-size: x-large;
+  font-size: 1.25vh;
   font-weight: 800;
   height: 9em;
   width: 17em;
@@ -59,7 +61,7 @@ ul {
 
 #removeAll {
 	background-color: #FF6B6B;
-  width: 12em;
+  width: 10vh;
 }
 
 #add {
@@ -67,26 +69,6 @@ ul {
 }
 
 
-@media only screen and (min-width: 999px) {
-  header {
-    margin-top: 23%;
-    margin-left: 29%;
-  }
-  #groceryItem {
-    margin-left: 27%;
-    margin-top: 32%;
-  }
-  #removeAll {
-    width: 13em;
-  }
-  .instructions {
-    margin-left: 29%;
-    margin-top: 33.5%;
-  }
-  ul {
-    margin-left: 30%;
-    margin-top: 35%;
-  }
-}
+
 
 
