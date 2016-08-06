@@ -6,10 +6,11 @@ header {
    position: absolute;
     margin-top: 50%;
     margin-left: 16%;
-	 font-family: Covered By Your Grace;
-	 color: #672222;
+   font-family: Covered By Your Grace;
+   color: #672222;
      font-size: 2.25vh;
 }
+
 @media only screen and (min-width: 564px) {
   header {
     margin-top: 35%;
@@ -23,6 +24,7 @@ body {
 	background-size: 150%;
 	background-position: 40% 1%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 @media only screen and (min-width: 564px) {
   body {
@@ -69,7 +71,7 @@ ul {
   font-size: 2vh;
   font-weight: 500;
   height: 9em;
-  width: 17em;
+  width: 14em;
   overflow-y: scroll;
   padding: 0;
 }
@@ -83,7 +85,18 @@ ul {
 }
 
 ::-webkit-scrollbar {
-  display: none;
+    width: 12px;
+    direction: left;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 
 #inputText {
