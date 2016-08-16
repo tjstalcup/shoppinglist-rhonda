@@ -1,65 +1,36 @@
+@media only screen and (max-width: 500px) {
+body {
+  background-image: url('../images/Grocery Bag.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+
 .purchased {
     text-decoration: line-through;
 }
 
 header {
-   position: absolute;
-    margin-top: 50%;
-    margin-left: 16%;
-   font-family: Covered By Your Grace;
-   color: #672222;
-     font-size: 2.25vh;
-}
+     margin-top: 60%;
+     font-family: Covered By Your Grace;
+     color: #672222;
+     font-size: 3vw;
+     text-align: center;
+ }
 
-@media only screen and (min-width: 564px) {
-  header {
-    margin-top: 35%;
-    margin-left: 24%;
-    font-size: 3.25vh;
-  }
-}
-
-body {
-	background-image: url('../images/Grocery Bag.jpg');
-	background-size: 150%;
-	background-position: 40% 1%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-@media only screen and (min-width: 564px) {
-  body {
-    background-size: cover;
-    background-position: 50% 0%;
-  }
-
-
-#groceryItem {
-	position: absolute;
-  margin-left: 14%;
-  margin-top: 68%;
+.form {
+  position: static;
+  float: left;
+  margin-top: 80%;
   font-size: 1.25vh;
-}
- @media only screen and (min-width: 564px) { 
-  #groceryItem {
-    margin-left: 24%;
-    margin-top: 47%;
-    font-size: 1.5vh;
-  }
-}
-
+ }
 
 .instructions {
-	position: absolute;
+  position: absolute;
   margin-left: 26%;
-  margin-top: 71.5%;
+  margin-top: 74%;
   font-size: 1vh;
-}	
-@media only screen and (min-width: 564px) {
-  .instructions {
-    margin-left: 26%;
-    margin-top: 47.5%;
-    font-size: 2vh;
-  }
+ }  
+
 
 ul {
   position: absolute;
@@ -74,49 +45,44 @@ ul {
   width: 14em;
   overflow-y: scroll;
   padding: 0;
-}
-
-@media only screen and (min-width: 564px) {
-  ul {
-    margin-left: 33%;
-    margin-top: 48%;
-    font-size: 3vh;
-  }
-}
+ }
 
 ::-webkit-scrollbar {
     width: 12px;
     direction: left;
-}
+ }
  
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
     border-radius: 10px;
-}
+ }
  
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-}
+ }
 
 #inputText {
-	background-color: #FDDB33;
+  background-color: #FDDB33;
     width: 15em;
-}
+ }
 
 #removeAll {
-	background-color: #FF6B6B;
-  width: 16vh;
-}
-@media only screen and (min-width: 564px) {
-  #removeAll {
-    width: 24vh;
-  }
-}
+  background-color: #FF6B6B;
+    width: 16vh;
+ }
 
 #add {
-	background-color: #55e58a;
+  background-color: #55e58a;
+ }
+
+
+
 }
+
+
+
+
 
 
 
