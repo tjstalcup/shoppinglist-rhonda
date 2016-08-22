@@ -1,8 +1,9 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 320px) {
 body {
   background-image: url('../images/Grocery Bag.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position: 50% 150px;
+  padding: 0;
   }
 
 .purchased {
@@ -10,32 +11,32 @@ body {
 }
 
 header {
-     margin-top: 60%;
      font-family: Covered By Your Grace;
      color: #672222;
-     font-size: 3vw;
+     font-size: 1rem;
+     width: 50%;
+     margin-left: 5rem;
      text-align: center;
  }
 
 .form {
-  position: static;
   float: left;
-  margin-top: 80%;
-  font-size: 1.25vh;
+  font-size: 1.5vh;
+  margin-top: 100px;
+  margin-left: 60px;
  }
 
 .instructions {
   position: absolute;
-  margin-left: 26%;
-  margin-top: 74%;
-  font-size: 1vh;
+  font-size: 2vh;
+  text-align: center;
+  margin-left: 2.25rem;
  }  
 
 
 ul {
   position: absolute;
   margin-left: 30%;
-  margin-top: 74%;
   list-style-type: none;
   font-family: Shadows Into Light Two;
   color: #672222;
@@ -45,6 +46,7 @@ ul {
   width: 14em;
   overflow-y: scroll;
   padding: 0;
+  margin-top: 8rem;
  }
 
 ::-webkit-scrollbar {
@@ -63,18 +65,33 @@ ul {
  }
 
 #inputText {
+  position: relative;
   background-color: #FDDB33;
-    width: 15em;
+    width: 18em;
+    font-size: .7rem;
+    padding: 0;
+ }
+
+#add {
+  background-color: #55e58a; 
+  position: absolute;
+  font-size: .6rem;
+  padding: 2px;
+  margin-top: .2rem;
+  margin-left: 4rem;
  }
 
 #removeAll {
   background-color: #FF6B6B;
-    width: 16vh;
+    width: 2.7rem;
+    position: relative;
+    padding: 2px;
+    font-size: .6rem;
+    margin-top: .2rem;
+    margin-left: 5.8rem;
  }
 
-#add {
-  background-color: #55e58a;
- }
+
 
 
 
