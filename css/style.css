@@ -1,5 +1,6 @@
 @media only screen and (max-width: 380px) {
 body {
+   background-image: url('../images/Grocery Bag.png');
   background-repeat: no-repeat;
   background-position: 50% 150px;
   padding: 0;
