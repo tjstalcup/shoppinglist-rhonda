@@ -13,25 +13,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <div id="wrapper" class="wrapper">
-  <div id="image">
-  <div id="header" class="header">
-    <header><h1>Lovelorn's Shopping List</h1></header>
-  </div>  
+  <header><h1>Lovelorn's Shopping List</h1></header>
+  
   <div class="container">
-    <div id="form" class="form">
+      <div class="instructions">(Click checkbox to scratch out purchased items. Click 'remove' button on checked items to remove them from the list.)</div>
+
+      <div id="form" class="form">
         <form id="groceryItem">
           <div id="input-line">
            <input type="text" id="inputText" placeholder="Enter item here"/>
           </div>
-          <div id="add-button">
+          <div class="buttons">
            <input type="submit" id="add" value="Add"/>
-          </div>
-          <div id="remove-button">
-           <input type="button" id="removeAll" value="Remove Purchased Items"/>
+           <input type="button" id="removeAll" value="Remove"/>
           </div> 
-        </form><br>
-    </div>  
-      <div class="instructions">(Click checkbox to scratch out purchased items. Click 'remove' button on checked items to remove them from the list.)</div><br>
+        </form>
+      </div> 
   
        <div class="list-items">
           <ul>
